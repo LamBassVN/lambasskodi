@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="skin.cosmicpro.lambass" version="1.0.82" name="Cosmic Pro" provider-name="heppen,lambass">
+  <requires>
+    <import addon="xbmc.gui" version="5.15.0"/>
+    <import addon="script.skinshortcuts" version="1.1.5"/>
+    <import addon="script.embuary.info" version="2.0.8"/>
+    <import addon="script.embuary.helper" version="2.0.8"/>	
+    <import addon="resource.images.studios.white" version="0.0.28"/>
+    <import addon="resource.images.studios.coloured" version="0.0.20"/>
+    <import addon="resource.images.weathericons.white" version="0.0.6"/>
+    <import addon="resource.images.moviegenreicons.transparent" version="0.0.6"/>
+  </requires>
+  <extension point="xbmc.gui.skin" debugging="false">
+    <res width="1920" height="1080" aspect="16:9" default="true" folder="xml"/>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Đơn giản, nhẹ và sáng tạo</summary>
+    <description lang="en_GB">Giao diện được thiết kế để người dùng tập trung vào việc thưởng thức Media. Nó cung cấp nhiều giải pháp sáng tạo mà mọi người yêu điện ảnh đánh giá cao.</description>
+    <platform>all</platform>
+    <license>Creative Commons Attribution Non-Commercial Share-Alike 4.0</license>
+    <forum>https://www.facebook.com/tofu.mamtom/</forum>
+    <source>https://github.com/LamBassVN/lambasskodi/raw/matrix/zips/skin.cosmicpro.lambass</source>
+    <assets>
+      <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
